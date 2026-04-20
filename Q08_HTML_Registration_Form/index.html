@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name"><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password"><br><br>
+
+        <label>E-mail ID:</label>
+        <input type="text" name="email"><br><br>
+
+        <label>Phone Number:</label>
+        <input type="text" name="phone"><br><br>
+
+        <label>Sex:</label>
+        <input type="radio" name="sex" value="Male"> Male
+        <input type="radio" name="sex" value="Female"> Female<br><br>
+
+        <label>Date of Birth:</label>
+        <select name="day">
+            <option>Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+        </select>
+        <select name="month">
+            <option>Month</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+        </select>
+        <select name="year">
+            <option>Year</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+        </select><br><br>
+
+        <label>Languages Known:</label>
+        <input type="checkbox" name="language" value="English"> English
+        <input type="checkbox" name="language" value="Hindi"> Hindi
+        <input type="checkbox" name="language" value="French"> French<br><br>
+
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

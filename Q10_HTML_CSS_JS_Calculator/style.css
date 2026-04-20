@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    width: 250px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+#result {
+    width: 220px;
+    height: 30px;
+    text-align: right;
+}
+
+button {
+    width: 45px;
+    height: 40px;
+}
